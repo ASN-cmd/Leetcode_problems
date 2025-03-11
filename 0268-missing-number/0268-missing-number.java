@@ -1,31 +1,13 @@
-import java.util.*;
-
 class Solution {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int nums[] = new int[n];
-        for(int i=0; i<n; i++){
-            nums[i] = sc.nextInt();
-        }
-
-        missingNumber(nums);
-    }
-
+    
     public static int missingNumber(int[] nums) {
-        int flag;
-        for(int i=1; i<=nums.length; i++){
-            flag=0;
-            for(int j=0; j<nums.length; j++){
-                if(nums[j] == i){
-                    flag = 1;
-                    break;
-                }
-            }
-            if(flag==0){
-                return i;
-            }
+        int sum1;
+        int sum2 = 0;
+        sum1 = ((nums.length*(nums.length+1))/2);
+        for(int i = 0; i < nums.length; i++){
+            sum2 = sum2 + nums[i];
         }
-        return 0;
+        int ans = sum1 - sum2;
+        return ans;
     }
 }
