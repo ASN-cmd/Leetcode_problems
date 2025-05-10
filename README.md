@@ -33,6 +33,7 @@
 | ------- |
 | [0189-rotate-array](https://github.com/ASN-cmd/Leetcode_problems/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ASN-cmd/Leetcode_problems/tree/master/0268-missing-number) |
+| [2032-largest-odd-number-in-string](https://github.com/ASN-cmd/Leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -80,4 +81,9 @@
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/ASN-cmd/Leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
+| [2032-largest-odd-number-in-string](https://github.com/ASN-cmd/Leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
+## Greedy
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ASN-cmd/Leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
